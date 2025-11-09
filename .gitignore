@@ -1,1 +1,46 @@
-main
+# --- Compiled object files ---
+*.o
+*.obj
+*.lo
+*.slo
+*.Po
+*.Plo
+*.d
+
+# --- Static and import libraries ---
+*.a
+*.la
+*.lai
+*.lib
+
+# --- Shared / dynamic libraries ---
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# --- Executables and binaries ---
+*.exe
+*.out
+*.app
+*.elf
+
+# --- Debug / symbol files and core dumps ---
+*.pdb
+*.ilk
+*.exp
+core
+*.stackdump
+
+# --- Code coverage files ---
+*.gcno
+*.gcda
+*.gcov
+profile.prof
+*.profraw
+*.profdata
+
+# --- Precompiled headers ---
+*.gch
+*.p*
+s
